@@ -99,29 +99,58 @@ ul#portfolio_list {
 li.portfolio_item {
 	margin-right: 16px;
 	margin-bottom: 16px;
-	padding: 8px 16px 8px 16px;
 
-	min-width: 200px;
-	max-width: 280px;
+	min-width: 300px;
+	max-width: 480px;
 
 	flex-grow: 1;
 	flex-shrink: 1;
 
-	background-color: #0A0F0D; 
+	background-color: #382F95; 
 }
 
-li.portfolio_item:hover {
-	color: #F0E4FF;
+li.portfolio_item div {
+	padding: 8px 8px 8px 8px;
+	
+	width: 300px; /* use JS to change this value to parent width (actual width, not min or max) on resize */
+
+	font-size: 15px;
+
+	color: #9A9AA0;
+	background-color: #0A0F0D;
+}
+
+li.portfolio_item a {
+	text-decoration: none;
+}
+
+li.portfolio_item a div:hover {
 	background-color: #952F38; 
 }
 
-li.portfolio_item div{
-	width:150px;
+li.portfolio_item div h4 {
+	margin: 0px;
+	padding-bottom: 4px;
+
+	font-size: 18px;
+
+	text-align: center;
+
+	color: #F0E4FF;
 }
 
-li.portfolio_item img {
-	padding: 0px;
-	border: 0px;
+li.portfolio_item a:visited div h4 {
+	color: #9A9AA0;
+}
+
+li.portfolio_item a:hover div h4 {
+	color: #F0E4FF;
+}
+
+li.portfolio_item div img {
+	display: block;
+
+	padding-top: 4px;
 
 	width: 100%;
 	height: auto;
