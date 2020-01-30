@@ -84,6 +84,16 @@ main {
 	flex-grow: 1;
 }
 
+main a {
+	color: #9A9AA0;
+
+	text-decoration: none;
+}
+
+main a:hover {
+	color: #F0E4FF;
+}
+
 ul#portfolio_list {
 	padding: 0px;
 	width: 100%;
