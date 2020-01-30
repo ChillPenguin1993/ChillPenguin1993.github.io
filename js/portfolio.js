@@ -18,8 +18,8 @@ function resizeItems()
     
     item_list.forEach(function(userItem)
     {
-        var parent_width = userItem.parentElement.parentElement.clientWidth - 16;
-        console.log("Parent width: " + parent_width + ", my width: " + (userItem.clientWidth - 16));
+        var parent_width = userItem.parentElement.parentElement.clientWidth - 17;
+        //console.log("Parent width: " + parent_width + ", my width: " + (userItem.clientWidth - 16));
         //userItem.style.width = parent_width.toString() + "px";
         widths.push(parent_width);
         //console.log("new width: " + userItem.style.width);
