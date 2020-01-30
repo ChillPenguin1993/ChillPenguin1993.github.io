@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="../desktop.css">
+		<link href="https://fonts.googleapis.com/css?family=Comfortaa|Roboto&display=swap" rel="stylesheet">
+
+		<title>Tom Williams | Profile</title>
+	</head>
+
+	<body>
+		<header>
+			<h1>Tom Williams</h1>
+			<h2>Portfolio Website</h2>
+		</header>
+
+		<div id="middle">
+			<nav id="sidebar">
+				<a href="../profile.html">Profile</a>
+				<a href="../portfolio.html">Portfolio</a>
+				<a href="../contact.html">Contact</a>
+			</nav>
+
+			<main>
+				<h3>SFML Shoot-em-up</h3>
+                <p>An ongoing assignment this year is to make a shoot-em-up game using C++. We started this year by learning SFML, a 2D graphics
+                library, for simplicity, and we're in the process of learning to use DirectX 11. This is the SFML version of my game, as the DirectX
+                version is not ready yet, but this is recent enough to accurately portray my C++ skills.</p>
+
+                <p class="center">This is the most recent progress update, it still features some placeholder assets.
+                <iframe width="480" height="270" frameBorder="0"
+                    src="https://www.youtube.com/embed/rkKCt_I7dC8">
+                </iframe></p>
+
+                <p class="center">And the GitHub repository is <a href="https://github.com/ChillPenguin1993/SFML-Shmup">[here!]</a>
+                <br>Q shoots bullets, W swings the sword, and Space switches between the ship and the pilot.</p>
+
+                <p>This game uses an "Entity" class as a kind of game actor object, from which other objects (such as the player's ship and bullets)
+                are derived, using an overridden update() function. There's a "Scene" class so the game loop in main() only needs to call one function
+                to update all entities, for example. Scene contains a list of Entity pointers, so polymorphism can be used, which allows objects
+                inheriting from Entity to have different behaviours.</p>
+			</main>
+		</div>
+
+		<footer>
+			Copyright Tom Williams 2020
+		</footer>
+	</body>
+</html>

@@ -84,6 +84,12 @@ main {
 	flex-grow: 1;
 }
 
+main .center {
+	text-align: center;
+	display: block;
+	margin: auto;
+}
+
 main a {
 	color: #9A9AA0;
 
