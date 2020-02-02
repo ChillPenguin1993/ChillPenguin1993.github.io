@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="../desktop.css">
+		<link href="https://fonts.googleapis.com/css?family=Comfortaa|Roboto&display=swap" rel="stylesheet">
+
+		<title>Tom Williams | Profile</title>
+	</head>
+
+	<body>
+		<header>
+			<h1>Tom Williams</h1>
+			<h2>Portfolio Website</h2>
+		</header>
+
+		<div id="middle">
+			<nav id="sidebar">
+				<a href="../profile.html">Profile</a>
+				<a href="../portfolio.html">Portfolio</a>
+				<a href="../contact.html">Contact</a>
+			</nav>
+
+			<main>
+                <h3>DirectX 11 Engine</h3>
+                <p>For one of the assignments this year, we were tasked to make a game using C++, starting using SFML and later using DirectX 11 as
+                we learn it. You can find more about the SFML part <a href="sfml-shmup.html">here</a>, but for the DirectX part I wanted to attempt
+                something a bit more ambitious. I'm not sure how far I want to take this, I couldn't consider it a full engine yet but if I keep
+                working on it, maybe it will be!</p>
+
+                <p class="center">Here's the latest video of progress on the engine:<br>
+                <iframe width="480" height="270" frameBorder="0"
+                    src="https://www.youtube.com/embed/i36cG2USaIE">
+                </iframe></p>
+
+                <p>The main inspiration for this engine comes from Godot, which is often compared to Unity, though there are some differences. Unity
+                uses composition, with GameObjects containing components to perform the tasks that GameObject needs to do. Godot tends to focus more
+                on inheritance, where everything is a "node" in a big tree, and objects that need to perform specific tasks inherit from node and
+                provide extra functionality. Of course, you can still use inheritance in Unity, and likewise composition can be used in Godot by adding
+                "components" to a parent object which uses them as necessary (such as a player node with a mesh renderer node, an animator node, and
+                collider nodes to check for walls/floors/enemies as children).</p>
+			</main>
+		</div>
+
+		<footer>
+			Copyright Tom Williams 2020
+		</footer>
+	</body>
+</html>
