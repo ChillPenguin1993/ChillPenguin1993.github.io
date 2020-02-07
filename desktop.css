@@ -79,6 +79,7 @@ nav#sidebar a:hover {
 
 main {
 	padding-left: 16px;
+	padding-right: 16px;
 
 	flex-grow: 1;
 }
@@ -109,6 +110,18 @@ main a:hover {
 		flex-basis: 128px;
 		flex-grow: 0;
 		flex-shrink: 0;
+	}
+
+	main {
+		padding-right: 0px;
+	}
+	
+}
+
+@media only screen and (max-width: 800px) {
+
+	.center iframe {
+		width: 100%;
 	}
 	
 }
