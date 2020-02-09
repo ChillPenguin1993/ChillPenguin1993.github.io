@@ -203,3 +203,11 @@ footer {
 
 	background-color: #0A0F0D;
 }
+
+canvas#game {
+	width: 768px;
+	height: 576px;
+
+	image-rendering: pixelated; /* Chrome */
+	image-rendering: -moz-crisp-edges; /* Firefox */
+}
